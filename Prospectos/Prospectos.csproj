@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Prospectos.Commands\Prospectos.Commands.csproj" />
+    <ProjectReference Include="..\Prospectos.Config\Prospectos.Config.csproj" />
+    <ProjectReference Include="..\Prospectos.Data\Prospectos.Data.csproj" />
+    <ProjectReference Include="..\Prospectos.Entities\Prospectos.Entities.csproj" />
+    <ProjectReference Include="..\Prospectos.Queries\Prospectos.Queries.csproj" />
+    <ProjectReference Include="..\Prospectos.Services\Prospectos.Services.csproj" />
+    <ProjectReference Include="..\Prospectos.Validations\Prospectos.Validations.csproj" />
+  </ItemGroup>
+
+</Project>
